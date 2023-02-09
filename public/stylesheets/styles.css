@@ -52,8 +52,23 @@ navbar ul li a {
 
 .beerPartial {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    margin: 20px;
+}
 
-    height: 300px;
-    width: 300px;
+.beerPartial img {
+    width: 70px;
+    height: 200px;
+}
 
+
+
+.allBeerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
